@@ -1,7 +1,7 @@
 name: Good doggo
 version: "0.1.0"
 author: Vanessa McHale <tmchale@wisc.edu>
-about: Who's a good doggo?
+about: Evaluates the goodness of a doggo via the command line
 args:
     - NAME:
         help: Name of doggo
