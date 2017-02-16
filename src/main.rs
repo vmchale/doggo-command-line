@@ -17,11 +17,11 @@ fn main() {
     let mut s2 = String::new();
     if male {
         s1 = "boy".to_string();
-        s2 = "she".to_string();
+        s2 = "his".to_string();
     }
     else {
         s1 = "girl".to_string();
-        s2 = "she".to_string();
+        s2 = "her".to_string();
     }
     match doggo_compliment {
         0 => println!("{} is a good doggo.", dog),
