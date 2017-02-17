@@ -10,3 +10,4 @@ readme = "README.md"
 [dependencies]
 clap = { version = "2.20.4" , features = ["yaml"] }
 rand = "0.3.0"
+chrono = "0.3.0"
