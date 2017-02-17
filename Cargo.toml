@@ -1,11 +1,14 @@
 [package]
 name = "doggo"
 description = "Command line tool to evaluate the goodness of a doggo"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Vanessa McHale <tmchale@wisc.edu>"]
 license-file = "LICENSE"
 exclude = [ ".gitignore" ]
 readme = "README.md"
+repository = "https://github.com/vmchale/doggo-command-line"
+documentation = "https://github.com/vmchale/doggo-command-line#README"
+homepage = "https://github.com/vmchale/doggo-command-line"
 
 [dependencies]
 clap = { version = "2.20.4" , features = ["yaml"] }
