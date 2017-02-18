@@ -16,7 +16,7 @@ rand = "0.3.0"
 chrono = "0.3.0"
 
 [lib]
-name = "doggo"
+name = "libdoggo"
 path = "src/lib.rs"
 
 [[bin]]
