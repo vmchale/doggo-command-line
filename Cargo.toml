@@ -1,7 +1,7 @@
 [package]
 name = "doggo"
 description = "Command line tool to evaluate the goodness of a doggo"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Vanessa McHale <tmchale@wisc.edu>"]
 license-file = "LICENSE"
 exclude = [ ".gitignore" ]
@@ -14,3 +14,11 @@ homepage = "https://github.com/vmchale/doggo-command-line"
 clap = { version = "2.20.4" , features = ["yaml"] }
 rand = "0.3.0"
 chrono = "0.3.0"
+
+[lib]
+name = "doggo"
+path = "src/lib.rs"
+
+[[bin]]
+name = "doggo"
+path = "src/main.rs"
