@@ -1,6 +1,6 @@
 [root]
 name = "doggo"
-version = "0.1.6"
+version = "0.1.7-pre"
 dependencies = [
  "chrono 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "clap 2.20.5 (registry+https://github.com/rust-lang/crates.io-index)",
