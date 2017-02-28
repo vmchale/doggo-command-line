@@ -11,5 +11,5 @@
 
 /// Given a doggo's name, return a `bool` asserting whether they are good
 pub fn is_good_dogg(name: String) -> bool {
-    return true;
+    true
 }
