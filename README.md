@@ -19,7 +19,7 @@ curl https://sh.rustup.rs -sSf | sh
 Find out if he/she is a good doggo.
 
 ```
-$ doggo jethro
+$ doggo jethro -m
 
 jethro is a good woofer.
 ```
