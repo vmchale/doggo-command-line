@@ -1,5 +1,5 @@
 name: Good doggo
-version: "0.1.0"
+version: "0.1.9"
 author: Vanessa McHale <tmchale@wisc.edu>
 about: Evaluates the goodness of a doggo via the command line
 args:
