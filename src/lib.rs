@@ -1,4 +1,4 @@
-//! Pacakge to create the `doggo` executable to compliment a woofer. 
+//! Pacakge to create the `doggo` executable to compliment a woofer.
 //!
 //! # Examples
 //!
@@ -10,6 +10,6 @@
 //! ```
 
 /// Given a doggo's name, return a `bool` asserting whether they are good
-pub fn is_good_dogg(name: String) -> bool {
+pub fn is_good_dogg(_: &str) -> bool {
     true
 }
