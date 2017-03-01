@@ -14,22 +14,19 @@ fn main() {
     let dog = matches.value_of("NAME")
         .expect("Parse failed unexpectedly. Please check input.");
     let doggo_compliment = rand::thread_rng().gen_range(0, 11);
-    let male: bool = matches.occurrences_of("male") == 1 ;
-    let mut s1 = String::new();
-    let mut s2 = String::new();
-    if male {
-        s1 = "boy".to_string();
-        s2 = "his".to_string();
-    }
-    else {
-        s1 = "girl".to_string();
-        s2 = "her".to_string();
-    }
+    let male = matches.occurrences_of("male") == 1;
+    let (s1, s2) =
+        if male {
+            ("boy", "his")
+        }
+        else {
+            ("girl", "her")
+        };
     let date = Local::now();
     match doggo_compliment {
         0 => println!("{} is a good doggo.", dog),
         1 => println!("{} is a good woofer.", dog),
-        2 => println!("{} is a good {}!", dog, s1), // possibly fix this so it doesn't evaluate unless necessary? 
+        2 => println!("{} is a good {}!", dog, s1),
         3 => println!("Wow, {} - what a decent canine.",dog),
         4 => println!("They're good dogs, Brent."),
         5 => println!("{} is a good h*ckin doggo.", dog),
