@@ -1,7 +1,7 @@
 [package]
 name = "doggo"
 description = "Command line tool to evaluate the goodness of a doggo"
-version = "0.1.10"
+version = "0.1.11-pre"
 authors = ["Vanessa McHale <tmchale@wisc.edu>"]
 license-file = "LICENSE"
 exclude = [ ".gitignore" ]
