@@ -13,7 +13,10 @@ homepage = "https://github.com/vmchale/doggo-command-line"
 [dependencies]
 clap = { version = "2.20" , features = ["yaml"] }
 rand = "0.3"
-chrono = "0.3"
+chrono = "0.4"
+
+[profile.release]
+lto = true
 
 [lib]
 name = "libdoggo"
